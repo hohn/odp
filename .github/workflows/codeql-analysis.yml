@@ -60,7 +60,7 @@ jobs:
     # https://github.com/hohn/openssl/blob/master/INSTALL.md#building-openssl, but
     # using the ./config wrapper:
     - run: |
-        sudo apt-get install automake autoconf libtool pkg-config libconfig-dev libatomic libssl-dev
+        sudo apt-get install automake autoconf libtool pkg-config libconfig-dev libssl-dev
         ./bootstrap
         ./configure
         make
